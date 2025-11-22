@@ -305,6 +305,7 @@
                     puzzleType: puzzleTypeEl.value,
                     gridSize: parseInt(gridSizeEl.value, 10),
                     wordCount: parseInt(wordCountEl.value, 10),
+                    numPuzzles: parseInt(numPuzzlesEl.value, 10), // <-- This line was missing
                     customWords: sanitizedCustomWords,
                     id: Date.now(), // Unique ID for removal
                 };
